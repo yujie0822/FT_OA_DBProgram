@@ -61,7 +61,7 @@ try:
     #物控经理盖章
     poCol[7] = poTodayNodes.count(748)
     # 流程结束
-    poCol[8] = poTodayNodes.count(749)+poTodayNodes.count(747)
+    poCol[8] = poTodayNodes.count(1706)+poTodayNodes.count(747)+poTodayNodes.count(1707)+poTodayNodes.count(749)
     #总计
     poCol[9] = len(poTodayNodes)-poTodayNodes.count(750)
 
@@ -95,7 +95,7 @@ try:
     #物控经理盖章
     poCol_t[7] = poAllNodes.count(748)
     # 流程结束
-    poCol_t[8] = poAllNodes.count(749)+poAllNodes.count(747)
+    poCol_t[8] = poAllNodes.count(749)+poAllNodes.count(747)+poAllNodes.count(1707)+poAllNodes.count(1706)
     #总计
     poCol_t[9] = len(poAllNodes)-poAllNodes.count(750)
 
@@ -107,8 +107,8 @@ try:
     law_total_all = lawStatus[1][0]
 
     #节点异常处理
-    otherNodeList = findListNotInList(poTodayNodes,[742,743,744,1141,745,746,748,749,747,750,1401])
-    otherNodeList_t = findListNotInList(poAllNodes,[742,743,744,1141,745,746,748,749,747,750,1401])
+    otherNodeList = findListNotInList(poTodayNodes,[742,743,744,1141,745,746,748,749,747,750,1401,1706,1707])
+    otherNodeList_t = findListNotInList(poAllNodes,[742,743,744,1141,745,746,748,749,747,750,1401,1706,1707])
 
     if(len(otherNodeList)!=0):
         myUtil.ReportLog.logger.warning("销售订单流程报表：节点未统计"+(",".join(otherNodeList)))
@@ -121,8 +121,8 @@ try:
         law_total_today_p=int(round(law_total_today*100.0/poCol[8]+poCol[5]))
 
     #--------------------发送Email部分-------------------------
-    receiver = ['ERPSUPPORT@fortune-co.com','jacksun@fortune-co.com']
-    # receiver = ['jimmyyu@fortune-co.com']
+    # receiver = ['ERPSUPPORT@fortune-co.com','jacksun@fortune-co.com']
+    receiver = ['jimmyyu@fortune-co.com']
     subject = str(date_yesterdayList[0])+'月'+str(date_yesterdayList[1])+'日采购订单审批流程试运行总结'
 
 
