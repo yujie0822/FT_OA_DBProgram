@@ -22,7 +22,7 @@ where t2.currentnodeid <> 270 and t1.bm is null )
     if(len(rows)>0):
         mailTag = True
         for row in rows:
-            mailText += str(row[1])+" "
+            mailText += str(row[0])+" "
         mailText += "流程无部门\n"
     else:
         myUtil.JobLog.logger.info("销售订单表单检查：一切正常")
