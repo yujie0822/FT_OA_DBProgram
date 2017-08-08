@@ -20,13 +20,16 @@ where t2.currentnodeid <> 270 and t1.bm is null )
 """)
     rows = oaCursor.fetchall()
     if(len(rows)>0):
-        mailTag=True
+        mailTag = True
         for row in rows:
-            mailText+=str(row[1])+" "
-        mailText+="流程无部门\n"
+            mailText += str(row[1])+" "
+        mailText += "流程无部门\n"
+    else:
+        myUtil.JobLog.logger.info("销售订单表单检查：一切正常")
 
     if mailTag:
         myUtil.MailUtil.sendTextMailTo(["jimmyyu@fortune-co.com"],"销售订单表单检查",mailText)
+        myUtil.JobLog.logger.info("销售订单表单检查：存在异常数据，已发送邮件")
 
 except Exception as e:
     myUtil.JobLog.logger.error("销售订单表单检查：%s".format(e),exc_info=True)
