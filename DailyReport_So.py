@@ -1,4 +1,7 @@
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
+# @Time    : 2017/8/8 13:02
+# @Author  : Jimmy Yu
+# @File    : DailyReport_So.py
 import cx_Oracle,myUtil.MailUtil,myUtil.SqlEnv,myUtil.ReportLog,datetime,smtplib,math
 
 now=datetime.datetime.now()

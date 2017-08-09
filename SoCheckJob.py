@@ -1,4 +1,7 @@
-# -*- coding: utf-8 -*-
+# _*_ coding: utf-8 _*_
+# @Time    : 2017/8/8 13:02
+# @Author  : Jimmy Yu
+# @File    : SoCheckJob.py
 import cx_Oracle,myUtil.SqlEnv,myUtil.MailUtil,myUtil.JobLog,datetime,smtplib,math
 
 oaConn = cx_Oracle.connect(myUtil.SqlEnv.MAIN_OA_CONNECT_STRING)
