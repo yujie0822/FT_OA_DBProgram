@@ -15,15 +15,15 @@ try:
     oaCursor.callproc('P_JOB_UPDATEZQ',[msg,endType])
     if endType.getvalue() == 0:
         myUtil.JobLog.logger.info('Run Successfully')
-        myUtil.MailUtil.sendTextMailTo(["jimmyyu@fortune-co.com", "yujie0822@163.com"], "Run With Successfully-临时账期停用程序",
+        myUtil.MailUtil.sendTextMailTo(["jimmyyu@fortune-co.com"], "Run With Successfully-临时账期停用程序",
                                        msg.getvalue())
     elif endType.getvalue() == 1:
         myUtil.JobLog.logger.info('Run with Warnings')
-        myUtil.MailUtil.sendTextMailTo(["jimmyyu@fortune-co.com", "yujie0822@163.com"], "Run With Warning-临时账期停用程序",
+        myUtil.MailUtil.sendTextMailTo(["jimmyyu@fortune-co.com", "yujie_0822@163.com"], "Run With Warning-临时账期停用程序",
                                        msg.getvalue())
     else:
         myUtil.JobLog.logger.error('Run with Error')
-        myUtil.MailUtil.sendTextMailTo(["jimmyyu@fortune-co.com", "yujie0822@163.com"], "Run With Error-临时账期停用程序",
+        myUtil.MailUtil.sendTextMailTo(["jimmyyu@fortune-co.com", "yujie_0822@163.com"], "Run With Error-临时账期停用程序",
                                        msg.getvalue())
     myUtil.JobLog.logger.info(msg.getvalue())
 
