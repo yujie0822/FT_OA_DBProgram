@@ -29,7 +29,7 @@ try:
 
 except Exception as e:
     myUtil.JobLog.logger.error("临时账期停用：%s".format(e), exc_info=True)
-    myUtil.MailUtil.sendTextMailTo(["jimmyyu@fortune-co.com", "yujie0822@163.com"], "Run With Exception-临时账期停用程序",e)
+    myUtil.MailUtil.sendTextMailTo(["jimmyyu@fortune-co.com", "yujie_0822@163.com"], "Run With Exception-临时账期停用程序",e)
     raise
 
 finally:
