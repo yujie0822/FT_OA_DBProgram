@@ -9,6 +9,7 @@ from sqlalchemy import create_engine
 import os
 import pandas as pd
 from pandas.io import sql
+
 os.environ['NLS_LANG'] = 'SIMPLIFIED CHINESE_CHINA.UTF8'
 pd.set_option('display.max_colwidth', -1)
 e_oa = create_engine('oracle://oadb:oracle@192.168.0.89:1521/OADB',echo = True)
