@@ -210,8 +210,8 @@ try:
 
 
     #--------------------发送Email部分-------------------------
-    receiver = ['waynelu@fortune-co.com','jacksun@fortune-co.com']
-    # receiver = ['jimmyyu@fortune-co.com']
+    # receiver = ['waynelu@fortune-co.com','jacksun@fortune-co.com']
+    receiver = ['jimmyyu@fortune-co.com']
     subject = str(date_yesterdayList[0])+'月'+str(date_yesterdayList[1])+'日销售订单审批流程试运行总结'
     htmlContent = """
 <html>
