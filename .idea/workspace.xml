@@ -4,8 +4,6 @@
     <list default="true" id="19b84097-bddd-4d3b-8600-96a1a0e559c8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DailyReport_Po.py" afterPath="$PROJECT_DIR$/DailyReport_Po.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DailyReport_So.py" afterPath="$PROJECT_DIR$/DailyReport_So.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myUtil/JobLog.py" afterPath="$PROJECT_DIR$/myUtil/JobLog.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myUtil/ReportLog.py" afterPath="$PROJECT_DIR$/myUtil/ReportLog.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,6 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FT_OA_DBProgram$DailyReport_So.coverage" NAME="DailyReport_So Coverage Results" MODIFIED="1506699745378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FT_OA_DBProgram$Job_CheckWfproError.coverage" NAME="Job_CheckWfproError Coverage Results" MODIFIED="1505143391813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCode$DailyReport_Po.coverage" NAME="DailyReport_Po Coverage Results" MODIFIED="1502119461989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/FT_OA_DBProgram$fhdCheck.coverage" NAME="fhdCheck Coverage Results" MODIFIED="1506590918305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -22,14 +21,15 @@
     <SUITE FILE_PATH="coverage/FT_OA_DBProgram$updateJdeCus.coverage" NAME="updateJdeCus Coverage Results" MODIFIED="1503845732102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCode$DailyReport_So.coverage" NAME="DailyReport_So Coverage Results" MODIFIED="1502119707660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pyCode$SoCheckJob.coverage" NAME="SoCheckJob Coverage Results" MODIFIED="1502119871913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FT_OA_DBProgram$DailyReport_Po.coverage" NAME="DailyReport_Po Coverage Results" MODIFIED="1506699754154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="DailyReport_Po.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DailyReport_Po.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="131" column="21" lean-forward="true" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+            <state relative-caret-position="270">
+              <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -172,7 +172,43 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.fhdCheck">
+  <component name="RunManager" selected="Python.DailyReport_Po">
+    <configuration name="DailyReport_Po" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyCode" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DailyReport_Po.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="DailyReport_So" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pyCode" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DailyReport_So.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="Job_CheckWfproError" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -187,42 +223,6 @@
       <module name="pyCode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Job_CheckWfproError.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="Job_UpdateLSZQ" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Job_UpdateLSZQ.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="SoCheckJob" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pyCode" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SoCheckJob.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,19 +264,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.SoCheckJob" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Job_UpdateLSZQ" />
-      <item index="2" class="java.lang.String" itemvalue="Python.updateJdeCus" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Job_CheckWfproError" />
-      <item index="4" class="java.lang.String" itemvalue="Python.fhdCheck" />
+      <item index="0" class="java.lang.String" itemvalue="Python.updateJdeCus" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Job_CheckWfproError" />
+      <item index="2" class="java.lang.String" itemvalue="Python.fhdCheck" />
+      <item index="3" class="java.lang.String" itemvalue="Python.DailyReport_So" />
+      <item index="4" class="java.lang.String" itemvalue="Python.DailyReport_Po" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.fhdCheck" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Job_CheckWfproError" />
-        <item index="2" class="java.lang.String" itemvalue="Python.updateJdeCus" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Job_UpdateLSZQ" />
-        <item index="4" class="java.lang.String" itemvalue="Python.SoCheckJob" />
+        <item index="0" class="java.lang.String" itemvalue="Python.DailyReport_Po" />
+        <item index="1" class="java.lang.String" itemvalue="Python.DailyReport_So" />
+        <item index="2" class="java.lang.String" itemvalue="Python.fhdCheck" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Job_CheckWfproError" />
+        <item index="4" class="java.lang.String" itemvalue="Python.updateJdeCus" />
       </list>
     </recent_temporary>
   </component>
@@ -588,8 +588,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DailyReport_Po.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="131" column="21" lean-forward="true" selection-start-line="131" selection-start-column="21" selection-end-line="131" selection-end-column="21" />
+        <state relative-caret-position="270">
+          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
           <folding />
         </state>
       </provider>

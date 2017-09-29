@@ -124,8 +124,8 @@ try:
         law_total_today_p=int(round(law_total_today*100.0/poCol[8]+poCol[5]))
 
     #--------------------发送Email部分-------------------------
-    #receiver = ['waynelu@fortune-co.com','jacksun@fortune-co.com']
-    receiver = ['jimmyyu@fortune-co.com']
+    receiver = ['waynelu@fortune-co.com','jacksun@fortune-co.com']
+    # receiver = ['jimmyyu@fortune-co.com']
     subject = str(date_yesterdayList[0])+'月'+str(date_yesterdayList[1])+'日采购订单审批流程试运行总结'
 
 
